@@ -26,3 +26,10 @@ echo "The subtraction is: $sub"
 
 result=$((num1*num2))
 echo "The multiplication is: $result"
+
+# Percentile
+
+# Percentage Calculation
+result=$(echo "scale=2; ($num1 / $num2) * 100" | bc)
+echo "The Percentage is: $result%"
+
